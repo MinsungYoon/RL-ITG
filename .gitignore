@@ -1,0 +1,4 @@
+**/logs
+**/data/
+**/result*
+cmake-build-debug

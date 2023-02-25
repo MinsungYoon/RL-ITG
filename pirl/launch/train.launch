@@ -1,0 +1,16 @@
+<launch>
+    <arg name="use_rviz" default="true"/>
+
+    <rosparam file="$(find pirl)/launch/pirl.yaml" />
+    <param name="use_rviz" value="$(arg use_rviz)"/>
+
+    <include file="$(find fetch_moveit_assistant)/launch/demo.launch">
+        <arg name="use_rviz" value="$(arg use_rviz)" />
+    </include>
+
+    <node name="pirl_services_main" pkg="pirl" type="pirl_services_main"/>
+</launch>
+
+<!--    <node name="train_main" pkg="pirl"  type="train_main.py"/>-->
+<!--    <node name="fetch_marker_main" pkg="fetch_rl" type="fetch_marker.py"/>-->
+<!--    <node name="rqt" pkg="rqt_gui" type="rqt_gui"/>-->

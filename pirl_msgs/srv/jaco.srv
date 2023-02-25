@@ -1,0 +1,4 @@
+float64[] err_config
+float64[] cur_config
+---
+float64 objective_value

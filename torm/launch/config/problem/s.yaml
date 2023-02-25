@@ -1,0 +1,6 @@
+problem:
+  default_setting_joints: ["r_gripper_finger_joint", "l_gripper_finger_joint"]
+  default_setting_values: [0.1, 0.1]
+  load_path: true
+  load_scene: true
+

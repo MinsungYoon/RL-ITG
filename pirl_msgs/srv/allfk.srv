@@ -1,0 +1,4 @@
+float64[] query_config
+---
+float64[] allfk_result
+bool result

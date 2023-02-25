@@ -1,0 +1,9 @@
+!.gitignore
+
+**/logs/
+**/log/
+**/__pycache__/
+
+*.pyc
+*.pt
+*.npz

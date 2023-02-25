@@ -1,0 +1,4 @@
+float64[] query_config
+---
+bool collision_result
+bool result

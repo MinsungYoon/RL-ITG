@@ -1,0 +1,30 @@
+robot:
+  planning_group: "arm"
+
+  fixed_frame: "base_link"
+
+  planning_base_link: "torso_lift_link"
+  planning_tip_link: "gripper_link"
+
+  continuous_joints: [2, 4, 6]
+  joint_names: ["shoulder_pan_joint", "shoulder_lift_joint", "upperarm_roll_joint", "elbow_flex_joint", "forearm_roll_joint", "wrist_flex_joint", "wrist_roll_joint"]
+  ll: [-1.6056, -1.221, -3.141592, -2.251, -3.141592, -2.16, -3.141592]
+  ul: [1.6056, 1.518, 3.141592, 2.251, 3.141592, 2.16, 3.141592]
+
+  n_dof: 7
+  n_segement: 8
+  act_dim: 7
+
+  fk_base_position: [-0.086875, 0.0, 0.37743]
+  sample_range: [0.3, 1.1, -0.8, 0.8, 0.3, 1.2,
+                 -3.1415926535897, 3.1415926535897,
+                 -2.61799387799, 2.61799387799,
+                 -2.09439510239, 2.09439510239]
+
+
+
+
+  #vel_ll: [-1.256, -1.454, -1.571, -1.521, -1.571, -2.268, -2.268]
+  #vel_ul: [1.256, 1.454, 1.571, 1.521, 1.571, 2.268, 2.268]
+  #vel_ll: [-0.26, -0.26, -0.26, -0.26, -0.26, -0.26, -0.26]
+  #vel_ul: [0.26, 0.26, 0.26, 0.26, 0.26, 0.26, 0.26]

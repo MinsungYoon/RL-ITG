@@ -1,0 +1,13 @@
+controller_list:
+  - name: fake_arm_controller
+    joints:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - upperarm_roll_joint
+      - elbow_flex_joint
+      - forearm_roll_joint
+      - wrist_flex_joint
+      - wrist_roll_joint
+initial:  # Define initial robot poses.
+  - group: arm
+    pose: initial_pose

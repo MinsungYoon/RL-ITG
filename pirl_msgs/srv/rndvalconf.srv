@@ -1,0 +1,5 @@
+float64[] sample_range
+---
+float64[] configuration
+float64[] ee_pose
+bool result

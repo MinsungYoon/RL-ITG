@@ -1,0 +1,3 @@
+1. make_sdf_from_scene.py
+2. gen_cloud_data_eval.sh
+3. extract_vae_latent.py

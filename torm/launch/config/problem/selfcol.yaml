@@ -1,0 +1,6 @@
+problem:
+  start_config: [-1.32221,1.50203,-0.361538,-1.41333,0.0239537,1.47703,0.606331]
+  default_setting_joints: ["r_gripper_finger_joint", "l_gripper_finger_joint"]
+  default_setting_values: [0.1, 0.1]
+  load_path: true
+  load_scene: false
