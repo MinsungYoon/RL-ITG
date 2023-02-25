@@ -5,7 +5,9 @@ The contents of each folder are as follows.
 - pirl_msgs: consists of messages or services on ROS
 - pirl_vae: variational autoencoder learning code for learning scene_encoding_vector
 - torm (cloned from [link](https://github.com/cheulkang/TORM)): TORM planner and Greedy and Linear initializer baselines
-
+- Velodyne Simulator (cloned from [link]([https://github.com/cheulkang/TORM](https://github.com/florianshkurti/velodyne_simulator))): lidar is used to obtain a point cloud for the external environment in the gazebo
+- fetch_description (cloned from [link]([https://github.com/cheulkang/TORM](https://github.com/ZebraDevs/fetch_ros))): To use the fetch robot model
+- fetch_moveit_config (cloned from [link]([https://github.com/cheulkang/TORM](https://github.com/ZebraDevs/fetch_ros))): To use the fetch robot model
 
 
 
