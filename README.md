@@ -9,7 +9,7 @@ The contents of each folder are as follows.
 - fetch_description (cloned from [link](https://github.com/ZebraDevs/fetch_ros)): To use the fetch robot model
 - fetch_moveit_config (cloned from [link](https://github.com/ZebraDevs/fetch_ros)): To use the fetch robot model
 
-You can get more information (e.g., paper and video) regarding this paper through [our website](http://sglab.kaist.ac.kr/ICRA23_RLITG/).
+You can get more information (e.g., paper and video) regarding this paper through [our project page](http://sglab.kaist.ac.kr/ICRA23_RLITG/).
 
 
 
